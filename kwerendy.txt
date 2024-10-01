@@ -1,1 +1,2 @@
 1. SELECT nazwaPliku, podpis FROM ZDJECIA ORDER BY podpis DESC;
+2. SELECT cel, dataWyjazdu FROM wycieczki WHERE dostepna = 0;
