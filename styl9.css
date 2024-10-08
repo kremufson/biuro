@@ -29,7 +29,7 @@ ol {
 li {
     text-align: left;
 }
-h2:first-child {
+h2:first-letter {
     font-size: 170%;
     color: maroon;
 }
