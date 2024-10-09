@@ -1,5 +1,10 @@
 <?php
 $db = mysqli_connect('localhost', 'root', '', 'podroze');
+
+$q = "SELECT nazwaPliku, podpis FROM zdjecia ORDER BY podpis";
+$r = mysqli_query($db, $q);
+$obrazy = mysqli_fetch_all($r, MYSQLI_BOTH);
+
 ?>
 <!DOCTYPE html>
 <html lang="pl">
