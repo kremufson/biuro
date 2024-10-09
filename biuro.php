@@ -1,3 +1,6 @@
+<?php
+$db = mysqli_connect('localhost', 'root', '', 'podroze');
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
